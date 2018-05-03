@@ -1,0 +1,70 @@
+{
+    
+    "air_acceleration": 0.035,
+    "air_friction": 0.015,
+    "air_speed": 1.12,
+    "fall_speed": 0.4,
+    "gravity": 0.12,
+    
+    
+    "short_hop": 15,
+    "full_hop": 26,
+    "aerial_hop": 29.5,
+    "jump_squat": 5,
+    
+    
+    "get_up": 35,
+    "ledge_jump": 33,
+    "ledge_roll": 50,
+    
+    
+    "roll": 31,
+    "run_speed": 1.6,
+    "walk_speed": 0.75,
+    "spotdodge": 28,
+    "traction": 0.06,
+    
+    
+    "weight": 103,
+    
+    
+    "sprites": {
+            
+    },
+    
+    "moveset": {
+        "kick": {
+            "FAF": 5,
+            "landing_lag": 0,
+            "frames": 
+            [
+                {"hitboxes":[], "autocancel":false, "intangible":false, "invincible":false, "super_armor":{}, "heavy_armor":{}},
+                {"hitboxes":[], "autocancel":false, "intangible":false, "invincible":false, "super_armor":{}, "heavy_armor":{}},
+                {
+                    "hitboxes":[
+                        {"x": 237, "y": 336, "width": 45, "height": 28, "priority": 0, "base_damage": 8, "angle": 135, "BKB": 100, "WBKB": 10, "KBG":115},
+                        {"x": 252, "y": 322, "width": 45, "height": 28, "priority": 1, "base_damage": 8, "angle": 135, "BKB": 100, "WBKB": 10, "KBG":115}
+                    ],
+                    "autocancel":false,
+                    "intangible":false,
+                    "invincible":false,
+                    "super_armor":{},
+                    "heavy_armor":{}
+                },
+                {
+                    "hitboxes":[
+                        {"x": 237, "y": 318, "width": 46, "height": 68, "priority": 0, "base_damage": 7, "angle": 135, "BKB": 100, "WBKB": 10, "KBG":115},
+                        {"x": 260, "y": 335, "width": 45, "height": 51, "priority": 1, "base_damage": 7, "angle": 135, "BKB": 100, "WBKB": 10, "KBG":115}
+                    ],
+                    "autocancel":false,
+                    "intangible":false,
+                    "invincible":false,
+                    "super_armor":{},
+                    "heavy_armor":{}
+                },
+                {"hitboxes":[], "autocancel":false, "intangible":false, "invincible":false, "super_armor":{}, "heavy_armor":{}},
+                {"hitboxes":[], "autocancel":false, "intangible":false, "invincible":false, "super_armor":{}, "heavy_armor":{}},
+                {"hitboxes":[], "autocancel":false, "intangible":false, "invincible":false, "super_armor":{}, "heavy_armor":{}}
+            ]}
+    }
+}
